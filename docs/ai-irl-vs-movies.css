@@ -1,3 +1,68 @@
-h1{text-align: center;
-font-size: 40px
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FULL CENTERING */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* Card box */
+.content {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 60px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Title */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Subtitle */
+p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    color: #cbd5f5;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.btn:hover {
+    background: #2563eb;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* Click */
+.btn:active {
+    transform: scale(0.96);
 }
