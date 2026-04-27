@@ -185,11 +185,3 @@ figure {
   margin-right: auto;
 }
 
-a {
-  color: purple;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
