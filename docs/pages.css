@@ -97,3 +97,99 @@ p {
 .btn:active {
     transform: scale(0.96);
 }
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: steelblue;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: steelblue;
+}
+
+.viki-hover {
+  position: relative;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.viki-hover img {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 200px;
+  border: 2px solid black;
+  background: white;
+  z-index: 10;
+}
+
+.viki-hover:hover img {
+  display: block;
+}
+
+.ava-hover {
+  position: relative;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ava-hover img {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 200px;
+  border: 2px solid black;
+  background: white;
+  z-index: 10;
+}
+
+.ava-hover:hover img {
+  display: block;
+}
+
+figure {
+  width: 300px;
+  margin: 0 auto;   /* centers the whole block */
+  text-align: center;
+}
+
+.img-group {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.caption {
+  margin-top: 10px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
