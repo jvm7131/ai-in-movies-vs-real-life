@@ -185,3 +185,6 @@ figure {
   margin-right: auto;
 }
 
+span.title.on {
+    background-color: yellow;
+}

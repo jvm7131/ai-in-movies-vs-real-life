@@ -15,3 +15,27 @@ function changeColor() {
 }
 
 function newFunction() {}
+
+function init() {
+  var inputs = document.getElementsByTagName("input");
+
+  for (var i = 0; i < inputs.length; i++) {
+    inputs[i].addEventListener("click", toggle, false);
+  }
+}
+
+function toggle() {
+  var id = this.id;
+
+  switch (id) {
+    case "TITLEtoggle":
+      var titles = document.getElementsByClassName("title");
+
+      for (var i = 0; i < titles.length; i++) {
+        titles[i].classList.toggle("on");
+      }
+      break;
+  }
+}
+
+window.addEventListener("DOMContentLoaded", init, false);
